@@ -4,14 +4,14 @@ This project develops a machine learning-based regression system for predicting 
 
 The project was completed as part of SIT720 and covers data collection, exploratory data analysis, feature engineering, regression modelling, model evaluation, prediction-error investigation, comparison with human and LLM estimates, and deployment of the selected model as a Streamlit web application.
 
-##2. Project Resources
+## 2. Project Resources
 **GitHub Repository:**  
 https://github.com/YoggJoshi7/SIT720-Sydney-Housing-Price-Prediction
 
 **Deployed Streamlit Application:**  
 https://sit720-sydney-housing-price-prediction.streamlit.app/
 
-##3. Dataset
+## 3. Dataset
 
 The dataset contains 100 manually collected sold-property records from three Sydney suburbs:
 
@@ -36,7 +36,7 @@ The dataset includes property characteristics such as:
 
 The data was collected from publicly available property listing sources. Missing information was retained where it could not be reliably obtained rather than being artificially populated.
 
-##4. Machine Learning Models
+## 4. Machine Learning Models
 
 Three regression approaches were evaluated:
 
@@ -48,18 +48,18 @@ The models were evaluated using k-fold cross-validation and regression metrics i
 
 Linear Regression was selected as the final model based on its cross-validation performance.
 
-##5. Repository Structure
+## 5. Repository Structure
 
 | File | Description |
 |---|---|
-| `SIT720_8.1D_COMPLETE_Sydney_Housing_Project_CORRECTED.ipynb` | Complete and corrected project notebook containing data analysis, modelling, evaluation and Part 5 holdout experiment |
+| `SIT720_8.1D_COMPLETE_Sydney_Housing_Project.ipynb` | Complete and corrected project notebook containing data analysis, modelling, evaluation and Part 5 holdout experiment |
 | `SIT720_8.1D_Sydney_Housing_Data_Cleaned.csv` | Cleaned housing dataset used for modelling |
 | `SIT720_8.1D_app.py` | Streamlit application source code |
 | `sydney_house_price_model.joblib` | Saved trained Linear Regression pipeline used by the deployed application |
 | `requirements.txt` | Python dependencies required to run the application |
 | `README.md` | Project documentation |
 
-##6. How to Run
+## 6. How to Run
 
 ### 1. Clone the repository
 
@@ -93,7 +93,7 @@ The application then returns an estimated property sale price.
 **Live Application:**  
 https://sit720-sydney-housing-price-prediction.streamlit.app/
 
-##8. Model Performance
+## 8. Model Performance
 
 | Model | CV RMSE (AUD) | CV R² | Test RMSE (AUD) | Test R² |
 |---|---:|---:|---:|---:|
@@ -103,7 +103,7 @@ https://sit720-sydney-housing-price-prediction.streamlit.app/
 
 Linear Regression was selected based on the lowest mean cross-validation RMSE.
 
-##9. ML, LLM and Human Comparison
+## 9. ML, LLM and Human Comparison
 
 Ten properties were held out separately from the Part 3 test set and used to compare:
 
